@@ -1,0 +1,61 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+   
+    <table width=200 cellspacing=1 cellpadding=0 border=0>
+        <tr>
+            <td bgcolor="#aaaaaa">
+                <table width=200 border=0 cellpadding=0>
+                    <TR>
+                        <TD class=nav >&nbsp;
+                            <SPAN class=BigPrint >
+                                <b>Меню оператора:</b>
+                            </SPAN>
+                        </TD>
+                    </TR>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <table width=200 border=0 cellspacing=1 cellpadding=0>
+        <tr>
+            <td bgcolor="#aaaaaa">
+                <table width=200 border=0 cellpadding=5 >
+                    <tr>
+                        <td class="login">
+                            <table width="100%">
+                                <tr >
+                                    <td>
+                                        <form name="form5" method="post" action="createSubscriber.jsp">
+                                            <INPUT type="submit" name="submit" value="Новый абонент" style="width:100%">
+                                        </form>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td >
+                                        <form name="form6" method="post" action="subscriberSearchEdit.do">
+                                        <INPUT type="submit" name="submit" value="Редактор абонентов" style="width:100%">
+                                        </form>
+                                    </td>
+                                </tr>
+                                <tr >
+                                    <td>
+                                        <form name="form5" method="post" action="createPhone1.jsp">
+                                            <INPUT type="submit" name="submit" value="Новый телефон" style="width:100%">
+                                        </form>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td >
+                                        <form name="form6" method="post" action="phoneSearchEdit.do">
+                                        <INPUT type="submit" name="submit" value="Редактор тех. данных" style="width:100%">
+                                        </form>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    

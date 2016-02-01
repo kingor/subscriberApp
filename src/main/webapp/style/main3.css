@@ -1,0 +1,297 @@
+
+.backgroundlogo{
+    MARGIN: 2px 2px 10px; 
+    COLOR: #000;  
+    BACKGROUND-COLOR: #026cc4; 
+    BACKGROUND-IMAGE: url(backgroundlogo.jpg)
+}
+.content {
+    MARGIN: 2px 2px 10px; 
+    COLOR: #000; 
+    BACKGROUND-COLOR: #d9e1e7; 
+    text-align: center;
+    
+}
+.center {
+    text-align: center;
+}
+.nav{
+    MARGIN: 2px 2px 10px; 
+    COLOR: #000;  
+    BACKGROUND-COLOR: #dddddd; 
+    BACKGROUND-IMAGE: url(nav.jpg)
+}
+    .vline{
+
+}
+.button {
+    cursor:pointer;
+    display:block;
+    height:16px;
+    width:16px;
+    line-height:70px;
+    text-align:center;
+    background-image:url('gear.png');
+    background-repeat:no-repeat;
+}
+.but24 {
+    border: none;
+    padding: 1px; /* Поля в ячейках */
+    height: 40;
+    vertical-align: middle; /* Выравнивание по верхнему краю ячеек */
+    text-align:center;
+   }
+   
+.but16 {
+    padding: 1px; /* Поля в ячейках */
+    height: 16;
+    vertical-align: middle; /* Выравнивание по верхнему краю ячеек */
+    text-align:center;
+   }
+   
+input.del {
+    background: url(gear.png) no-repeat;
+    height: 16;
+    width: 16;
+    border: none;
+    position: relative;
+}
+.nav {text-align: middle
+}
+.nav A:link {
+    COLOR: #ffffff;
+    text-decoration: none;
+}
+.nav A:visited {
+    COLOR: #026cc4;
+    text-decoration: none;
+}
+.nav A:hover {
+    COLOR: #000000;
+    text-decoration: none;
+}
+.navText  {
+    FONT-SIZE: 12px; 
+    FONT-FAMILY:  arial, verdana, sans-serif;
+    line-height: 10px
+}
+
+table.navu th{
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    MARGIN: 0px 0px 0px; 
+    BACKGROUND-COLOR: #d9e1e7; 
+    text-align: middle;
+}
+
+.width960 {
+    width: 990;
+}
+.width753 {
+    width: 783;
+}
+.navu A:link {
+    COLOR: #026cc4;
+    text-decoration: none;
+}
+.navu A:visited {
+    COLOR: #026cc4;
+    text-decoration: none;
+}
+.navu A:hover {
+    COLOR: #026cc0;
+    text-decoration: none;
+}
+
+table.navi th{
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    MARGIN: 2px 2px 10px; 
+    COLOR: #000;  
+    BACKGROUND-COLOR: #dddddd; 
+    BACKGROUND-IMAGE: url(nav.jpg);
+    text-align: middle;
+}
+
+.navi A:link {
+    COLOR: #ffffff;
+    text-decoration: none;
+}
+.navi A:visited {
+    COLOR: #026cc4;
+    text-decoration: none;
+}
+.navi A:hover {
+    COLOR: #026cc4;
+    text-decoration: none;
+}
+
+.naviText  {
+    FONT-SIZE: 12px; 
+    FONT-FAMILY:  arial, verdana, sans-serif
+}
+.naviText {
+    line-height: 10px
+}
+
+.textLogo {
+    FONT-SIZE: 25px; 
+    FONT-FAMILY:  verdana, arial, sans-serif;
+    color: #ffffff;
+}
+
+.textLogoWhite {
+    FONT-SIZE: 20px; 
+    FONT-FAMILY: verdana, arial, sans-serif;
+    color: #45565f
+}
+
+.BigPrint {
+    FONT-FAMILY: arial, helvetica, sans-serif;
+    FONT-SIZE: 14px;
+    COLOR: #026cc4;
+}
+
+.news{
+    MARGIN: 2px 2px 10px; 
+    COLOR: #000;  
+    BACKGROUND-COLOR: #d9e1e7;
+    text-align: middle
+}
+
+.news A:link {
+    COLOR: #0000ff
+}
+.news A:visited {
+    COLOR: #0000ff
+}
+.news A:hover {
+    COLOR: #026cc4
+}
+
+
+.login{
+    BACKGROUND-COLOR: #d9e1e7
+}
+
+
+.Copyright {
+    FONT-FAMILY: verdana, arial, sans-serif;
+    FONT-SIZE: 10px;
+    COLOR: #000000;
+}
+
+.contentText1 {
+    FONT-SIZE: 17px; 
+    FONT-FAMILY: verdana, arial, sans-serif;
+    color: #0000ff;
+}
+
+.textCopy {
+    FONT-SIZE: 11px; 
+    FONT-FAMILY: verdana, arial, verdana, sans-serif;
+    color: #000;
+}
+
+TD {
+    vertical-align: top; 
+}
+
+
+body A:link {
+    COLOR: #333366
+}
+body A:visited {
+    COLOR: #333366
+}
+body A:hover {
+    COLOR: #ff6600
+}
+form {
+    margin: 0px; /* Убираем отступы */
+}
+
+.AllWidth {
+    width: 100%; /* Убираем отступы */
+}
+
+.border {
+    width: 100%; /* Убираем отступы */
+    border: 1px;
+}
+
+.width5 {
+    width: 5%; /* Убираем отступы */
+}
+.width10 {
+    width: 10%; /* Убираем отступы */
+    height: 100%;
+}
+.width15 {
+    width: 15%; /* Убираем отступы */
+    height: 100%;
+}
+.width12 {
+    width: 12%; /* Убираем отступы */
+}
+.width20 {
+    width: 20%; /* Убираем отступы */
+    height: 100%;
+}
+.width25 {
+    width: 25%; /* Убираем отступы */
+}
+.width30 {
+    width: 30%; /* Убираем отступы */
+}
+.width35 {
+    width: 35%; /* Убираем отступы */
+}
+.width40 {
+    width: 40%; /* Убираем отступы */
+}
+.width45 {
+    width: 45%; /* Убираем отступы */
+}
+.width50 {
+    width: 50%; /* Убираем отступы */
+}
+
+.textBold {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+}
+.AllHeight{
+    width: 100%; /* Убираем отступы */
+    height: 100%; /* Убираем отступы */
+}
+
+input {
+  display: inline;
+  font-family: arial,sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  user-select: none;
+  padding: .1em .1em;
+  outline: none;
+  transition: all .218s ease 0s;
+  border-radius: 2px;
+  background: #ffffff linear-gradient(#fefefe, #f1f1f1);
+  border: 1px solid rgba(0,0,0,.1);
+}
+input:hover {
+  color: #000000;
+  border: 1px solid #D3D3D3;
+  background: #ffffff linear-gradient(#fefefe, #f1f1f1);
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+input:active {
+  color: #000000;
+  border: 1px solid #D5D5D5;
+  background: #ffffff linear-gradient(#fefefe, rgb(224,224,224));
+  box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+}
+

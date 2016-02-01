@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping  package="by.telecom.subscriberapp">
+  <class name="by.telecom.subscriberapp.Phone" table="phone">
+    <id column="id" name="id">
+      <generator class="increment"/>
+    </id>
+    <property column="number" name="number"/>
+    <property column="band" name="band"/>
+    <property column="security" name="security"/>
+    <property column="scv" name="scv"/>
+    <property column="adsl" name="adsl"/>
+    <many-to-one class="Subscriber" column="id_subscriber" lazy="false" name="subscriber"/>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,68 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+   
+    <table width=200 cellspacing=1 cellpadding=0 border=0>
+        <tr>
+            <td bgcolor="#aaaaaa">
+                <table width=200 border=0 cellpadding=0>
+                    <TR>
+                        <TD class=nav >&nbsp;
+                            <SPAN class=BigPrint >
+                                <b>Меню пользователя:</b>
+                            </SPAN>
+                        </TD>
+                    </TR>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <table width=200 border=0 cellspacing=1 cellpadding=0>
+        <tr>
+            <td bgcolor="#aaaaaa">
+                <table width=200 border=0 cellpadding=5 >
+                    <tr>
+                        <td class="login">
+                            <table class="AllWidth">
+                                <tr >
+                                    <td>
+                                        <form name="form5" method="post" action="index.jsp">
+                                            <INPUT type="submit" name="submit" value="Главная страница" style="width: 100%">
+                                        </form>
+                                    </td>
+                                </tr>
+                                <tr >
+                                    <td>
+                                        <form name="form5" method="post" action="subscribers.do">
+                                            <INPUT type="submit" name="submit" value="Просмотр всех абонентов" style="width:100%">
+                                        </form>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td >
+                                        <form name="form6" method="post" action="subscriberSearch.do">
+                                        <INPUT type="submit" name="submit" value="    Поиск абонентов    " style="width:100%">
+                                        </form>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <form name="form6" method="post" action="phones.do">
+                                        <INPUT type="submit" name="submit" value="Просмотр тех. данных" style="width:100%">
+                                        </form>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <form name="form6" method="post" action="phoneSearch.do">
+                                        <INPUT type="submit" name="submit" value="Поиск по тех. данным" style="width:100%">
+                                        </form>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    

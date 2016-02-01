@@ -1,0 +1,45 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+   
+    <table width=200 cellspacing=1 cellpadding=0 border=0>
+        <tr>
+            <td bgcolor="#aaaaaa">
+                <table width=200 border=0 cellpadding=0>
+                    <TR>
+                        <TD class=nav >&nbsp;
+                            <SPAN class=BigPrint >
+                                <b>Пользователь:</b>
+                            </SPAN>
+                        </TD>
+                    </TR>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <table width=200 border=0 cellspacing=1 cellpadding=0>
+        <tr>
+            <td bgcolor="#aaaaaa">
+                <table width=200 border=0 cellpadding=5 >
+                    <tr>
+                        <td class="login">
+                            <table width="100%">
+                                <tr >
+                                    <td class="textBold">
+                                            ${user.name}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <form name="form5" method="post" action="logout">
+                                            <INPUT type="submit" name="submit" value="Выход" style="width:100%">
+                                        </form>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    
